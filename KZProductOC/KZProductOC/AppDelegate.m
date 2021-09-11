@@ -17,9 +17,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    Class cl = NSClassFromString(@"ViewController");
+    Class cl = NSClassFromString(@"KTabBarVC");
     UIViewController *rootVC = [[cl alloc]init];
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:rootVC];
+    self.window.rootViewController = rootVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

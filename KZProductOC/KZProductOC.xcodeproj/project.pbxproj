@@ -13,6 +13,8 @@
 		296F399A26ECDB830029563C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296F399926ECDB830029563C /* Assets.xcassets */; };
 		296F399D26ECDB830029563C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296F399B26ECDB830029563C /* LaunchScreen.storyboard */; };
 		296F39A026ECDB830029563C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296F399F26ECDB830029563C /* main.m */; };
+		296F39AB26ECE6EA0029563C /* KTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 296F39AA26ECE6EA0029563C /* KTabBarVC.m */; };
+		296F39AF26ECE7280029563C /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 296F39AE26ECE7280029563C /* HomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		296F399C26ECDB830029563C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		296F399E26ECDB830029563C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296F399F26ECDB830029563C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		296F39A926ECE6EA0029563C /* KTabBarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KTabBarVC.h; sourceTree = "<group>"; };
+		296F39AA26ECE6EA0029563C /* KTabBarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KTabBarVC.m; sourceTree = "<group>"; };
+		296F39AD26ECE7280029563C /* HomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
+		296F39AE26ECE7280029563C /* HomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				296F398E26ECDB7D0029563C /* AppDelegate.m */,
 				296F399326ECDB7D0029563C /* ViewController.h */,
 				296F399426ECDB7D0029563C /* ViewController.m */,
+				296F39A926ECE6EA0029563C /* KTabBarVC.h */,
+				296F39AA26ECE6EA0029563C /* KTabBarVC.m */,
+				296F39AC26ECE7010029563C /* Home */,
 				296F399626ECDB7D0029563C /* Main.storyboard */,
 				296F399926ECDB830029563C /* Assets.xcassets */,
 				296F399B26ECDB830029563C /* LaunchScreen.storyboard */,
@@ -69,6 +78,15 @@
 				296F399F26ECDB830029563C /* main.m */,
 			);
 			path = KZProductOC;
+			sourceTree = "<group>";
+		};
+		296F39AC26ECE7010029563C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				296F39AD26ECE7280029563C /* HomeVC.h */,
+				296F39AE26ECE7280029563C /* HomeVC.m */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +160,8 @@
 			files = (
 				296F399526ECDB7D0029563C /* ViewController.m in Sources */,
 				296F398F26ECDB7D0029563C /* AppDelegate.m in Sources */,
+				296F39AB26ECE6EA0029563C /* KTabBarVC.m in Sources */,
+				296F39AF26ECE7280029563C /* HomeVC.m in Sources */,
 				296F39A026ECDB830029563C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
